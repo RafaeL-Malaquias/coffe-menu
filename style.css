@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px;
+}
+/* titulos */
+h1 {
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}    
+h1, h2 {
+    font-family: impact, serif;
+}
+
+h1 , h2 ,p {
+    text-align: center; 
+}
+h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+/* os titulos */
+span {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/* dicas no hr */
+hr {
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+/* editando img */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+/* editandos article  */
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price{
+    width: 25%;
+    text-align: right;
+}
+.item p { /* fiquem na mesma linha, você precisa aplicar elementos inline*/
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+/* footer */
+footer {
+    font-size: 18px;
+}
+.address {
+    margin-bottom: 5px;
+}
+a {
+    color: black;
+}
+/* */
+a:visited {
+color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: aliceblue;
+}
